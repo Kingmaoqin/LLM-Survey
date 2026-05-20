@@ -1,7 +1,5 @@
 # Interactional Robustness of Tool-Using LLM Agents：Related Work Survey
 
-> **写作目标**：这份文档把两个 related work 任务合并成一个可直接放进 proposal / paper 的中文 survey。叙述主体使用中文；关键术语、paper title、metric name、agent structure、input-output pattern 和可直接写进英文论文的句子保留英文。
-
 ---
 
 ## 0. 核心定位（Core Positioning）
