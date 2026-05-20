@@ -1,10 +1,5 @@
 
-# Interactional Robustness of Tool-Using LLM Agents：完整 Related Work Survey（补充扩展版）
-
-> 这版补齐为 **45 篇**相关工作。  
-> 叙述主体用中文；关键词、paper title、metric name、agent structure、input-output pattern 和可直接写进论文的英文句子保留英文。  
-> 每篇都按同一模板分析：**structure / input-output / metrics-model-baseline / similarity / difference / distinction**。
-
+# Interactional Robustness of Tool-Using LLM Agents：Related Work Survey（
 ---
 
 ## 0. 核心定位（Core Positioning）
