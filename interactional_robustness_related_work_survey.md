@@ -24,7 +24,6 @@
 
 ## 1. Related Work 总体结构
 
-建议把 related work 写成两个大板块：
 
 1. **LLM behavior under different interaction styles**  
    这一部分说明：已有工作已经证明 LLM 对 **prompt politeness, tone, emotional framing, persuasion, sycophancy, and conversational abuse** 敏感，但这些工作主要停留在 **text-level outcomes**。
