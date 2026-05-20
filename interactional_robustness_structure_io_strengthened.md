@@ -1,12 +1,4 @@
-# Interactional Robustness Related Work：Agent / Interaction Structure 与 Input-output Pattern 强化版
-
-> 说明：这一版专门强化你指出的两个薄弱点：
->
-> 1. **Agent / interaction structure**：先明确每篇是 `LLM-only`、`single-agent tool-use`、`user-agent-tool environment`、`multi-agent system`、还是 `judge/evaluator benchmark`。如果是 agent，就写清楚 agent、user、tool、environment、memory、planner、executor、judge 之间如何组织和交互。
-> 2. **Input-output pattern**：写清楚输入到底变了什么，输出到底评估什么。尤其区分 `textual output`、`tool-call sequence`、`environment state`、`policy decision`、`safety outcome`、`trajectory-level failure`。
->
-> 叙述用中文；关键词、paper title、metric name、agent structure、input-output pattern 保留英文，方便直接迁移到 proposal / related work。
-
+# Interactional Robustness Related Work
 ---
 
 ## 0. 我们自己的 benchmark 应该如何定位
