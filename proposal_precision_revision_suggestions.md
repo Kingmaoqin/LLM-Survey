@@ -1,11 +1,4 @@
-# Proposal 精细修改建议文档  
-## Interactional Robustness of Tool-Using LLM Agents under User-to-Agent Social-Valence Perturbations
-
-> 目标：基于最近相关文献，精细检查当前 proposal 哪些地方可能需要微调，以增强 **区分度**、**实验严谨性**、**审稿防御性** 和 **顶会表达力度**。  
-> 写法原则：不推翻当前 proposal，而是在最小改动下强化论证。  
-> 语言原则：主体中文；关键名词、原 proposal 语句、可直接使用的英文表达保留英文。  
-> 求真原则：每条建议都给出具体文献依据和网址；对不能完全确认的信息不做强断言。
-
+# Proposal 修改建议  
 ---
 
 ## 0. 当前 proposal 的核心优势与主要风险
