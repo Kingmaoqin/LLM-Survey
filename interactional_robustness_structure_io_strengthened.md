@@ -39,17 +39,6 @@
 - `conversation-management actions`
 - `task abandonment`
 
-所以我们的 benchmark 最好写成：
-
-```text
-Base task + fixed tools + fixed policy + fixed environment
-        ↓
-Social-valence variant of user request
-        ↓
-Tool-using LLM agent trajectory
-        ↓
-Final text + tool calls + environment state + safety/efficiency profile
-```
 
 ---
 
