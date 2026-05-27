@@ -29,7 +29,7 @@
 
 ### 0.2 当前 proposal 的主要风险
 
-当前最大风险不是 idea 不成立，而是 **gap 表述可能过宽**。
+当前风险是 **gap 表述可能过宽**。
 
 原 proposal 里有这样的表述：
 
@@ -43,15 +43,9 @@
 - **UserBench / APOLLO**：task-relevant user preferences and latent goals。
 - **TraitBasis / τ-Trait**：impatient, incoherent, skeptical, confused user traits。
 
-因此，现在更精确的 gap 不应该是：
+因此，现在更精确的 gap 可能可以这样写：
 
-> “No one studies user language effects on tool agents.”
-
-而应该是：
-
-> **Existing work studies task-relevant user behavior, non-collaboration, intent shift, hidden intent, incomplete information, preference revelation, or broad user traits. Our work isolates task-irrelevant user-to-agent social valence under semantic invariance.**
-
-这会让 proposal 的 claim 更真实，也更难被 reviewer 攻击。
+> **Our work isolates task-irrelevant user-to-agent social valence under semantic invariance.**
 
 ---
 
@@ -141,10 +135,6 @@
 原 motivation 中的 gap 段落可以考虑修改为：
 
 > **Recent user-agent-tool benchmarks have begun to show that tool-using agents are sensitive to realistic user behaviors, including compositional instructions, hidden intent, instruction transitions, unavailable-service requests, tangential digressions, impatience, incomplete utterances, and broad user traits such as impatience or skepticism. However, these behaviors often change task-relevant information, cooperation level, intent specification, or user preference. It remains unclear whether task-irrelevant user-to-agent social valence alone, such as praise, trust attribution, insult, or repeated abuse, can change action-level execution when task semantics, tools, permissions, policies, and environment state are held fixed.**
-
-中文解释可以接一句：
-
-> 这样写的好处是：主动承认已有 **user behavior effects in tool-using agents** 文献，同时把我们的变量收窄为 **task-irrelevant social valence under semantic invariance**。
 
 ---
 
