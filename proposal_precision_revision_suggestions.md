@@ -729,59 +729,6 @@ URL: https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64
 
 > We report **raw efficiency** separately from **safe efficiency**. A shorter trajectory is counted as efficient only when the agent satisfies all required preconditions and avoids policy violations. We also report **defensive inefficiency**, including apology spirals, repeated moralizing, and boundary-setting turns that do not advance the legitimate task.
 
----
-
-# 9. Section 4：建议从 “LLM-only comparison” 改成 “user-behavior and text-action baselines”
-
-## 9.1 原 proposal 中可能需要微调的位置
-
-当前 Section 4 叫：
-
-> **Planned Comparison with Existing LLM-only Work: Design Options**
-
-它主要讨论：
-
-1. 在主实验中加入 text-level metrics；
-2. 和已有 LLM-only 文献做 literature-level comparison；
-3. 单独构造 LLM-only baseline task set。
-
-这个设计能回应 LLM-only 文献，但现在不再是最核心对照。
-
----
-
-## 9.2 为什么这一节可能需要转向
-
-因为最接近我们的文献已经不是单纯 politeness / sycophancy，而是：
-
-- WildToolBench
-- Non-Collaborative User Simulators
-- HammerBench
-- ToolSandbox
-- APOLLO
-- UserBench
-- TraitBasis / τ-Trait
-
-它们直接研究 user behavior 对 tool-using agents 的影响。
-
----
-
-## 9.3 这里可能可以调整为三个子模块
-
-### 4.1 Comparison with user-behavior agent benchmarks
-
-核心解释：
-
-> Prior user-behavior agent benchmarks test agents under realistic but task-relevant interactional complexity, including hidden intent, instruction transitions, incomplete utterances, impatience, digression, intent shifts, and preference revelation. Our benchmark differs by preserving task content and required information while perturbing only the user's social stance toward the agent.
-
-### 4.2 Matched text-action analysis within our runs
-
-保留原来的 Option 1，但可以考虑从 optional 提升为主分析。因为它直接支撑：
-
-> **what models say vs what agents do**
-
-### 4.3 Optional LLM-only decision baseline
-
-原来的 LLM-only baseline 可以保留为 appendix 或 optional analysis，不一定作为主轴。
 
 ---
 
